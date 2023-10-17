@@ -34,8 +34,8 @@
 }
 .h4{
 
-    font-size: 4rem;
-    max-width: 400px;
+    font-size: 6rem;
+    max-width: 600px;
     font-weight:300;
     line-height: 0.8;
     margin-bottom: 50px;
@@ -59,15 +59,146 @@ span{
 
 .p{
 
-   margin-bottom: 35px;
-   font-weight: 300;
+   margin-bottom: 40px;
+   font-weight: 500;
 
 
 }
+ul{
+    margin-top: 80px;
+}
 
 li {
-
+    line-height: 1.8;
     margin-left: 25px;
     font-weight: 300;
 
+}
+
+#footer{
+    margin-top: 200px;
+}
+
+#myCheckbox:checked {
+    background-color:#0c060a;
+}
+
+
+.procedi {
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    width: 4cm;
+    height: 1.5cm;
+    font-size: x-large;
+ 
+    margin-left: 400px;
+    box-shadow: 0 0 1cm rgba(0, 255, 255, 0.8);
+   border-color: black ;
+  
+}
+
+.timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.domanda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.risposte {
+    color: white;
+    font-size: large;
+    background-color: transparent;
+   
+    width: 350px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+
+  
+
+}
+
+/*.risposte::before {
+    
+    
+    top: -15px; 
+    left: -30px; 
+    right: -30px; 
+    bottom: 0; /
+    background: linear-gradient(to right, white, white, transparent);
+    z-index: -3;
+}
+*/
+
+
+
+
+.risposte:nth-child(odd) {
+    margin-right: 5px;
+}
+
+.risposte:nth-child(even) {
+    margin-left: 5px;
+}
+
+#contenuto-pagina-quiz{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.h6{
+    margin-top: 300px;
+}
+
+/*pagina risultato*/
+#contenuto-pagina-risultato {
+    text-align: center;
+}
+.testo-page-3 {
+    margin-top: 30px;
+}
+
+.h4-results {
+    text-align: center;
+}
+
+.risultato-test{
+    display: block;
+    width: 300px ;
+}
+.cerchio-risultato {
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 30%;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+.rate-us {
+    margin-top: 20px;
+    width: 4cm;
+    height: 2cm;
+    background: transparent;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
